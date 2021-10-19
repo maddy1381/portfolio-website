@@ -1,0 +1,33 @@
+{
+     "users":[
+     {
+          "id": "1",
+          "image": "https://picsum.photos/200/300?random=1",
+          "fullName": "Madhav Sharma",
+          "title": "Amazing human",
+          "body": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet pariatur maiores recusandae optio, nostrum obcaecati molestiae rerum iure porro voluptatibus praesentium aliquam eos aut similique cum eligendi tenetur inventore, nesciunt sed ratione saepe perspiciatis? Esse tenetur et sed. Voluptatibus animi modi quo omnis, unde magnam consequuntur maiores! Consequatur, quibusdam repellat."
+     },
+     {
+          "id": "2",
+          "fullName": "Keshav Sharma",
+          "image": " https://avatars.dicebear.com/v2/female/:seed.svg",
+          "title": "Title 2",
+          "body": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet pariatur maiores recusandae optio, nostrum obcaecati molestiae rerum iure porro voluptatibus praesentium aliquam eos aut similique cum eligendi tenetur inventore, nesciunt sed ratione saepe perspiciatis? Esse tenetur et sed. Voluptatibus animi modi quo omnis, unde magnam consequuntur maiores! Consequatur, quibusdam repellat."
+     },
+     {
+          "id": "3",
+          "fullName": "Somebody Someone",
+          "image": " https://avatars.dicebear.com/v2/male/:seed.svg",
+          "title": "Title 3",
+          "body": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet pariatur maiores recusandae optio, nostrum obcaecati molestiae rerum iure porro voluptatibus praesentium aliquam eos aut similique cum eligendi tenetur inventore, nesciunt sed ratione saepe perspiciatis? Esse tenetur et sed. Voluptatibus animi modi quo omnis, unde magnam consequuntur maiores! Consequatur, quibusdam repellat."
+     },
+     {
+          "id": "4",
+          "fullName": "Somebody Someone",
+          "image": "https://picsum.photos/200/300?random=4",
+          "title": "Title 4",
+          "body": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet pariatur maiores recusandae optio, nostrum obcaecati molestiae rerum iure porro voluptatibus praesentium aliquam eos aut similique cum eligendi tenetur inventore, nesciunt sed ratione saepe perspiciatis? Esse tenetur et sed. Voluptatibus animi modi quo omnis, unde magnam consequuntur maiores! Consequatur, quibusdam repellat."
+     }
+     
+]
+}

@@ -1,0 +1,12 @@
+.icons{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 40px;
+     opacity: 1;
+     
+}
+.github, .insta, .linkedin{
+     margin: 30px 20px;
+     color: whitesmoke;
+}

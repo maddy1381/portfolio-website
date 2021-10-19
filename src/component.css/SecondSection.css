@@ -1,0 +1,28 @@
+.second-section{
+     width: 100vw;
+     min-height: 80vh;
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     
+     grid-template-areas: 
+     "box1 box2";
+     
+     
+}    
+SecondLeft{
+     grid-area: box1;
+    
+}
+SecondRight{
+     grid-area: box2;
+
+}
+
+@media only screen and (max-width:750px){
+     .second-section{
+          display: flex;
+     }
+     SecondRight{
+          display: none;
+     }
+}

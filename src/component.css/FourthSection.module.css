@@ -1,0 +1,82 @@
+.fourthSection{
+     /* background-color: rgba(0, 0, 0, 0.733); */
+     background-image: url('./ep_naturalblack-compressed.png');
+     width: 100vw;
+     height: 100%;
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     grid-template-areas: 
+     "left right";
+
+}
+.fourthSection > .left{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     grid-area: left;
+     top: 40px;
+     border-right: 2px solid gray;
+    
+}
+/* .fourthSection > .left > img {
+     border-bottom: 2px solid gray;
+} */
+
+.fourthSection > .right{
+     grid-area: right;
+     opacity: 1;
+}
+.contactHead{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     letter-spacing: .1rem;
+     word-spacing: .2rem;
+     border-bottom: 2px solid black;
+     color: whitesmoke;
+     
+}
+.form{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     position: relative;
+     bottom: 25px;
+}
+.formControl{
+     margin: .5rem auto;
+}
+.label{
+     color: whitesmoke;
+     font:small-caps;
+}
+.form > button{
+     margin-top: .7rem;
+     padding: .5rem .8rem;
+     font-size: 15px;
+     font-weight: bolder;
+     border-radius: 10%;
+     border: none;
+     font-style: italic;
+}
+.form > button:hover{
+     cursor: pointer;
+     background-color: wheat;
+}
+
+@media only screen and (max-width: 750px){
+     .fourthSection{
+          display: block;
+          height: auto;
+     }
+     .fourthSection > .left > img {
+          display: none;
+     }
+     /* .form{
+          display: none;
+     } */
+
+}
+

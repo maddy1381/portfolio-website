@@ -1,0 +1,62 @@
+.introRight{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     animation: entryright 1s ease-in;
+     margin-top: 25%;
+     font-size: 1rem;
+}
+.introRight > h2{
+     color: #ffffff;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     animation: entryright 1s ease-in;
+     font-size: 40px;
+}
+.text{
+     color: white;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     animation: entryright 1s ease-in;
+     font-size: 30px;
+}
+
+.title{
+     font-size: 2rem;
+     text-transform: uppercase;
+     transform: skew(-5deg, -5deg) rotate(5deg);
+     transform-origin: center center;
+     /* text-shadow:   1px 1px black,
+                    2px 2px black,
+                    3px 3px black,
+                    4px 4px black,
+                    5px 5px black,
+                    6px 6px black,
+                    10px 10px black,
+                    10px 10px 15px rgba(0, 0, 0, 0.5); */
+                    text-shadow:
+                    0 0 7px #fff,
+                    0 0 10px #fff,
+                    0 0 21px #fff,
+                    0 0 42px #0fa,
+                    0 0 82px #0fa,
+                    0 0 102px #0fa,
+                    0 0 112px #0fa,
+                    0 0 200px #0fa;
+}
+
+@keyframes entryright {
+     from{
+          transform: translateX(100px);
+     }
+     to{
+          transform: translateX(0px);
+     }
+   }
+   @media only screen and (max-width: 800px){
+        .introRight{
+             margin-top: 50%;
+        }
+   }

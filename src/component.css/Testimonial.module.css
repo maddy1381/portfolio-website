@@ -1,0 +1,82 @@
+.bigDiv{
+     /* background-color: rgba(108, 108, 221, 0.842); */
+     color: rgba(245, 245, 245, 0.836);
+     word-spacing: 2px;
+     width: 100vw;
+     /* background: linear-gradient(to left, rgb(59, 59, 59), rgb(0, 0, 145)); */
+     /* background: linear-gradient(to right, rgba(56, 17, 56, 0.479), rgba(67, 67, 156, 0.705) ); */
+     background-image: url('./black-Linen-compressed.png');
+}
+.heading{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: black;
+     letter-spacing: 1.5px;
+
+}
+.heading > h1{
+     border-bottom: 3px solid rgb(56, 56, 56);
+     color: linen;
+     font-weight:700;
+}
+
+.card {
+     /* Add shadows to create the "card" effect */
+     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+     transition: 0.3s;
+     width: 500px;
+     background-color: rgba(0, 0, 0, 0.753);
+     min-height: 300px;
+     margin: 20px 50px;
+     border-radius: 20px;
+     grid-area: card;
+}
+
+     /* On mouse-over, add a deeper shadow */
+     .card:hover {
+     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.87);
+}
+
+     /* Add some padding inside the card container */
+     .container {
+     font-size: larger;
+     padding: 2px 16px;
+}
+.container > h4{
+     margin-top: 10px;
+     margin-bottom: 20px;
+     border-bottom: 2px solid black;
+}
+.container > p{
+     margin-bottom: 20px;
+}
+.image{
+     height: 200px;
+     width: 200px;
+}
+
+
+
+.cardRow{
+     /* display: flex;
+     justify-content: center;
+     align-items: center; */
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     grid-template-areas: 
+     "card card";
+}
+
+.container > h1{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.reviews{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+

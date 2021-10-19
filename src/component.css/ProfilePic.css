@@ -1,0 +1,53 @@
+.parent{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 50vw;
+}
+
+
+
+.pfp{
+     width: auto;
+     height: auto;
+     margin: auto 0;
+     margin-top: 10%;
+     border-radius: 50%;
+     transform: scale(.8);
+     transition: 500ms;
+     animation: entry 1s ease-in;
+}
+.pfp:hover{
+     transform: scale(1);
+     
+}
+
+
+@keyframes entry {
+     from{
+          transform: translateX(-100px);
+     }
+     to{
+          transform: translateX(0px);
+     }
+   }
+
+   @media only screen and (max-width: 800px){
+        .pfp > img{
+             width: 300px;
+        }
+   }
+   @media only screen and (max-width: 700px){
+     .pfp > img{
+          width: 200px;
+     }
+     .parent{
+          display: block;
+          margin-top: 30%;
+     }
+}
+@media only screen and (max-width: 420px){
+     .pfp{
+          margin-left: 50%;
+     }
+}

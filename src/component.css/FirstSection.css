@@ -1,0 +1,38 @@
+.first-section{
+     width: 100vw;
+     min-height: 80vh;
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     grid-template-rows: 1fr 1fr;
+     grid-template-areas: 
+     "box1 box2";
+     background-image: url('../First\ Section\ Background\ compressed.jpg');
+     background-position: center;
+     background-size: cover;
+     
+}    
+ProfilePic{
+     grid-area: box1;
+     
+}
+IntroRight{
+     grid-area: box2;
+
+}
+
+@media only screen and (max-width: 420px){
+     .first-section{
+          display: grid;
+          grid-template-columns: 1fr;
+     grid-template-rows: 1fr;
+     grid-template-areas: 
+     "box1"
+     "box2";
+     }
+     
+}
+@media only screen and (max-width: 800px){
+     IntroRight{
+          margin-top: 30%;
+     }
+}
