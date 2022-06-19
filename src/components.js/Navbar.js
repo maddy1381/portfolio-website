@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import styles from "../component.css/Navbar.module.css";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 // import { BsDownload } from "react-icons/bs";
 import { BiMenu } from "react-icons/bi";
 
@@ -24,6 +24,9 @@ function Navbar(props) {
           </li>
           <li>
             <a href="/">Contact</a>
+          </li>
+          <li>
+            <Link to="/blogs">Blogs</Link>
           </li>
           {/* <li style={{float: 'right'}}><em> <a href="../../Resume.pdf" download>Download Resume</a></em></li> */}
         </ul>
