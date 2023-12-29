@@ -12,7 +12,7 @@ function FlipCards(props) {
           </div>
           <div className={styles.flipCardBack}>
             <h1>{props.heading}</h1>
-            <p>Level : {props.level}</p>
+            <p>Experience: {props.experience}</p>
           </div>
         </div>
       </div>

@@ -3,6 +3,7 @@ import styles from "../component.css/Social.module.css";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { BsDownload } from "react-icons/bs";
+import { HiOutlineMail } from "react-icons/hi";
 
 class Social extends Component {
   render() {
@@ -13,13 +14,6 @@ class Social extends Component {
           <FaGithub />{" "}
         </a>
         <a
-          href="https://www.instagram.com/madhav_sharma138/"
-          className={styles.insta}
-        >
-          {" "}
-          <FaInstagram />{" "}
-        </a>
-        <a
           href="https://www.linkedin.com/in/Madhav Sharma/"
           className={styles.linkedin}
         >
@@ -27,12 +21,14 @@ class Social extends Component {
           <FaLinkedin />{" "}
         </a>
         <a
-          style={{ color: "white", paddingLeft: 15 }}
-          href="./Resume.pdf"
+          // style={{ color: "white", paddingLeft: 15 }}
+          className={styles.email}
+          href="./Madhav-Sharma-Resume.pdf"
           download
         >
           <BsDownload />
         </a>
+        <a className={styles.email} href="mailto:ms1381598@gmail.com?subject=Subject%20Here&body=Hello%20World!"><HiOutlineMail /></a>
       </div>
     );
   }

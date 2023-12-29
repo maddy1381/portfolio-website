@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component, Suspense } from "react";
 import ProfilePic from "./ProfilePic";
 import IntroRight from "./IntroRight";
 import "../component.css/FirstSection.css";
@@ -8,7 +8,12 @@ class FirstSection extends Component {
     return (
       <div className="first-section">
         <IntroRight />
-        <ProfilePic />
+        {/* <ProfilePic /> */}
+        {/* <Canvas>
+          <Suspense fallback={null}>
+
+          </Suspense>
+        </Canvas> */}
       </div>
     );
   }

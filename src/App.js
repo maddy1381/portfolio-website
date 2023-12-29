@@ -20,7 +20,7 @@ const App = () => {
     <Router>
      
         <div style={{ height: "100%" }}>
-          <NavbarParent />
+          {/* <NavbarParent /> */}
           <Switch>
           <Route exact path="/">
             <section className="first-sections">

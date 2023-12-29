@@ -28,8 +28,6 @@ const IntroRight = () => {
       <div className={styles.introRight}>
         <h2>
           <div className={styles.title}>{state.title}</div>
-          {/* <div className="titleTwo">{state.titleTwo}</div> */}
-          {/* <div className="titleThree">{state.titlethree}</div> */}
         </h2>
       </div>
       <div className={styles.text}>
@@ -39,10 +37,10 @@ const IntroRight = () => {
             loop: true,
             delay: 40,
             strings: [
-              "My name is Maddy",
-              "I'm a web Enthusiast.",
-              "I'm a student.",
-              "I'm awesome.",
+              "My name is Madhav Sharma",
+              "Full stack web Developer.",
+              "",
+              ,
             ],
           }}
         />

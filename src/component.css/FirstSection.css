@@ -1,14 +1,17 @@
 .first-section{
      width: 100vw;
      min-height: 80vh;
-     display: grid;
+     /* display: grid;
      grid-template-columns: 1fr 1fr;
      grid-template-rows: 1fr 1fr;
      grid-template-areas: 
-     "box1 box2";
+     "box1 box2"; */
      background-image: url('../First\ Section\ Background\ compressed.jpg');
      background-position: center;
      background-size: cover;
+     display: flex;
+     justify-content: center;
+     align-items: center;
      
 }    
 ProfilePic{

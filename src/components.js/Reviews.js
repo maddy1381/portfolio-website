@@ -12,9 +12,9 @@ function Reviews({ users, index, nextUser, prevUser }) {
       <div className={styles.card}>
         <div className={styles.container}>
           <img src={image} alt="user image" />
-          <h1>{title}</h1>
+          {/* <h1>{title}</h1> */}
           <p>{body}</p>
-          <blockquote>By {fullName}</blockquote>
+          <blockquote>By {fullName}, {title}</blockquote>
         </div>
       </div>
       <button className={styles.btn} onClick={() => nextUser()}>
