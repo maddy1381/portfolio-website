@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/portfolio-website/static/css/main.a2d76604.css",
+    "main.js": "/portfolio-website/static/js/main.3b50245b.js",
+    "static/js/787.bb11b801.chunk.js": "/portfolio-website/static/js/787.bb11b801.chunk.js",
+    "static/media/nick-fewings-XXBgxhS_-vc-unsplash.jpg": "/portfolio-website/static/media/nick-fewings-XXBgxhS_-vc-unsplash.9be87a0b11d22f2d7c8c.jpg",
+    "static/media/First Section Background compressed.jpg": "/portfolio-website/static/media/First Section Background compressed.448f46d021ecac7cd012.jpg",
+    "static/media/MealImage-compressed.png": "/portfolio-website/static/media/MealImage-compressed.955e1d2b03dcc9f7db48.png",
+    "static/media/ep_naturalblack-compressed.png": "/portfolio-website/static/media/ep_naturalblack-compressed.a1ca4f3724b5d07699be.png",
+    "static/media/aboutPic-compressed.png": "/portfolio-website/static/media/aboutPic-compressed.d2e0d2b90d6d3fb757ab.png",
+    "static/media/black-Linen-compressed.png": "/portfolio-website/static/media/black-Linen-compressed.4293462b31c781628a20.png",
+    "static/media/GitHubPic.png": "/portfolio-website/static/media/GitHubPic.5ee0f6c9230dada90dff.png",
+    "static/media/Spotify_App_Logo.svg.webp": "/portfolio-website/static/media/Spotify_App_Logo.svg.2fd2148f0d4088048544.webp",
+    "static/media/signature.png": "/portfolio-website/static/media/signature.5d9b48257bff053c8256.png",
+    "static/media/Logo_of_Twitter.svg.webp": "/portfolio-website/static/media/Logo_of_Twitter.svg.058a8d8873c8a2d98bde.webp",
+    "index.html": "/portfolio-website/index.html",
+    "main.a2d76604.css.map": "/portfolio-website/static/css/main.a2d76604.css.map",
+    "main.3b50245b.js.map": "/portfolio-website/static/js/main.3b50245b.js.map",
+    "787.bb11b801.chunk.js.map": "/portfolio-website/static/js/787.bb11b801.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a2d76604.css",
+    "static/js/main.3b50245b.js"
+  ]
+}
